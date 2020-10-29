@@ -5,13 +5,8 @@
 using namespace std;
 
 int main(int /*argc*/, char* /*argv*/[]) {
+  Memory memory;
 
-  int test[50];
 
-  test[52] = 3;
-
-  int *ptr = new int;
-
-  cout << "Hello World!" << endl;
-  return 5.0;
+  return 0;
 }
